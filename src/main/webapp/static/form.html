@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<H1>hello!</H1>
+<form action="/my-servlet" method="post">
+    <input type="text" name="some-text" value="some-text"><br/>
+    <input type="text" name="another-text" value="some-text"><br/>
+    <input type="text" name="other-text" value="some-text"><br/>
+    <input type="text" name="text..." value="some-text"><br/>
+    <button type="submit">Send</button>
+</form>
+<br/>
+<form action="/file-servlet" method="post" enctype="multipart/form-data">
+    <input type="text" name="author">
+    <input type="file" name="file-name">
+    <button>Send</button>
+</form>
+
+</body>
+</html>
